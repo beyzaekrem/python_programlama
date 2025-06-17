@@ -1,3 +1,10 @@
+'''1-1000 aralığında seçilen rastgele 4 sayı x1,y1,x2 ve y2 sütunlarına yerleştirilir. 
+Bu işlem 100 defa yapılır. Bu sayılar iki boyutlu uzaydaki bir dikdörtgenin 2 köşe noktasının x ve y koordinatlarını temsil etmektedir.
+Bu sayılar iki köşe noktasının x ve y koordinatlarını temsil edeceği için x1 x2'den büyük olamaz aynı şekilde y1 de y2'den büyük olamaz.
+Ayrıca bir dikdörtgenin herhangi bir kenar uzunluğu 100'den büyük olamaz.
+Daha sonra veritabanından bu değerleri okuyarak üç durum için kontroller yapılır. 
+Bu üç durum; iki dikdörtgenin kesişmesi, bir dikdörtgenin diğerini kapsaması ve bir dikdörtgenin uzaydaki hiçbir dikdörtgen ile kesişmemesi.
+Hiçbir dikdörtgen ile temas etmeyen dikdörtgenleri, birbiriyle kesişen dikdörtgenleri ve bir dikdörtgen tarafından kapsanmış dikdörtgenleri açıklamalı bir şekilde ekrana yazdırılır. '''
 import sqlite3
 import random
 import os
